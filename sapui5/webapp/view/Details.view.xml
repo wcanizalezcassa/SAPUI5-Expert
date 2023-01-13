@@ -1,0 +1,12 @@
+<mvc:View controllerName="logaligroup.sapui5.controller.Details" 
+            xmlns="sap.m" 
+            xmlns:mvc="sap.ui.core.mvc" 
+            displayBlock="true">
+                <Page title="{i18n>detailsPageTitle}" showNavButton="true" navButtonPress=".onNavBack">
+                   <ObjectHeader title="Invoice">
+                        <attributes>
+                            <ObjectAttribute text="{northwind>ShipName}" />
+                        </attributes>
+                   </ObjectHeader>
+                </Page>
+</mvc:View>
