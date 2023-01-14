@@ -3,7 +3,8 @@
             xmlns:mvc="sap.ui.core.mvc" 
             displayBlock="true">
                 <Page title="{i18n>detailsPageTitle}" showNavButton="true" navButtonPress=".onNavBack">
-                   <ObjectHeader title="Invoice">
+                   <ObjectHeader title="Invoice" responsive="true"
+                   fullScreenOptimized="true">
                         <attributes>
                             <ObjectAttribute text="{northwind>ShipName}" />
                         </attributes>
